@@ -1,13 +1,25 @@
+<<<<<<< HEAD
 html {
   scroll-behavior: smooth;
 }
 
+=======
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
 .header {
   display: grid;
   margin: 92px 24px 96px 24px;
   box-sizing: border-box;
+<<<<<<< HEAD
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
+=======
+  width: 1052px;
+  height: 105px;
+  grid-template-columns: 1fr auto 1fr;
+  /*background-color: aqua;*/
+  align-items: center;
+  justify-content: center;
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
 }
 
 .menu {
@@ -16,25 +28,51 @@ html {
 
 .menu-list {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   flex-direction: row;
   text-underline-offset: 5px;
 }
 
 .menu-item-without {
+=======
+  flex-direction: row;
+}
+
+.menu-item-without {
+  align-self: flex-start;
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
   list-style: none;
   font-size: 18px;
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .menu-item {
+=======
+.menu-item-lots {
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
   list-style: circle;
   margin-left: 31.48px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
   letter-spacing: 0.01em;
+<<<<<<< HEAD
   
+=======
+  font-family: Raleway, sans-serif;
+}
+
+.menu-item-auct {
+  list-style: circle;
+  margin-left: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  letter-spacing: 0.01em;
+  font-family: Raleway, sans-serif;
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
 }
 
 .logo {
@@ -47,16 +85,27 @@ html {
 }
 
 .address {
+<<<<<<< HEAD
   margin: 5px 25.48px 2px 191.86px;
 }
 
 .address-number-email {
   
+=======
+  /*padding-left: 193.86px; */
+margin: 5px 25.48px 2px 193.86px;
+  
+}
+
+.address-num-email {
+  font-family: Raleway;
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   letter-spacing: 0.01em;
   text-align: left;
+<<<<<<< HEAD
   color: rgba(0, 0, 0, 1);
   font-style: normal;
   text-decoration: underline;
@@ -64,10 +113,22 @@ html {
 }
 
 .address-address {
+=======
+  color:rgba(0, 0, 0, 1);
+  font-style: normal;
+  text-decoration: underline;
+  
+
+}
+
+.address-address {
+  font-family: Raleway;
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   text-align: left;
+<<<<<<< HEAD
   color: rgba(0, 0, 0, 1);
   font-style: normal;
 }
@@ -376,3 +437,8 @@ html {
   height: 48px;
   border: 1px 0px 0px 0px;
 }
+=======
+  color:rgba(0, 0, 0, 1);
+  font-style: normal;
+}
+>>>>>>> 8e17a5c22ec15d37ba9f5d2e780c9c15914f764d
