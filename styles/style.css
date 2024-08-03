@@ -34,7 +34,6 @@ html {
   font-weight: 400;
   line-height: 21.13px;
   letter-spacing: 0.01em;
-  
 }
 
 .logo {
@@ -51,7 +50,6 @@ html {
 }
 
 .address-number-email {
-  
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
@@ -74,10 +72,9 @@ html {
 
 .cover {
   width: 1100px;
-  height: 757px;
+  min-height: 757px;
   position: relative;
-  padding: 173px 50px 50px 50;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -98,7 +95,7 @@ html {
   display: flex;
   flex-direction: column;
   width: 1000px;
-  height: 355px;
+  line-height: 355px;
   top: 165px;
   left: 50px;
   font-size: 100px;
@@ -134,36 +131,34 @@ html {
 }
 
 .cover__description {
-  position: absolute;
+  position: relative;
   width: 637px;
   height: 28px;
-  top: 667px;
+  top: 313px;
   left: 78px;
   z-index: 3;
 }
 
 .cover__description-text {
- 
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
   text-align: left;
   white-space: nowrap;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255 255 255 / 1);
   word-spacing: 18.5px;
 }
 
 .bet-button {
   color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(255, 255, 255, 1);
-  position: absolute;
+  position: relative;
   width: 256px;
   height: 51px;
-  top: 655px;
+  top: 272px;
   left: 794px;
   background-color: transparent;
-  
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;
@@ -174,13 +169,12 @@ html {
 
 .section {
   width: 1052px;
-  height: 692px;
   margin: 179px 24px 0px 24px;
 }
 
 .lots-heading {
   width: 121px;
-  height: 47px;
+  line-height: 47px;
   margin-left: 40px;
   font-size: 40px;
   font-weight: 700;
@@ -189,7 +183,6 @@ html {
 }
 
 .lots-card-list {
-  height: 563px;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -201,7 +194,7 @@ html {
 .card {
   padding-top: 20px;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   display: flex;
   background-color: aquamarine;
   flex-direction: column;
@@ -238,7 +231,7 @@ html {
 
 .card-title {
   width: 254px;
-  height: 82px;
+  line-height: 82px;
   top: 31px;
   left: 40px;
   position: relative;
@@ -251,12 +244,15 @@ html {
   z-index: 2;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card-text {
   margin-top: auto;
   width: 254px;
   margin-left: 40px;
   margin-bottom: 48px;
-
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -267,7 +263,7 @@ html {
 
 .lots__look-more-link {
   width: 192px;
-  height: 23px;
+  line-height: 23px;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 20px;
@@ -281,7 +277,7 @@ html {
 .about {
   margin: 146px 24px 0px 24px;
   width: 1052px;
-  height: 595px;
+  min-height: 595px;
   display: grid;
   grid-template-columns: 334px auto;
   justify-content: space-between;
@@ -309,8 +305,7 @@ html {
   display: flex;
   flex-direction: column;
   width: 693px;
-  height: 449px;
-  margin-top: 130px;
+  padding-top: 133px;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -338,9 +333,8 @@ html {
 }
 
 .footer {
-  margin: 180px 50px 88px 50px;
+  margin: 154px 50px 88px 50px;
   width: 1000px;
-  height: 98px;
   display: grid;
   grid-template-columns: 240.52px 149.64px 240px;
   gap: 185px;
@@ -374,5 +368,4 @@ html {
 .footer-social-icon {
   width: 48px;
   height: 48px;
-  border: 1px 0px 0px 0px;
 }
