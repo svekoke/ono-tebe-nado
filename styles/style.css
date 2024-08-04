@@ -95,9 +95,8 @@ html {
   display: flex;
   flex-direction: column;
   width: 1000px;
-  line-height: 355px;
-  top: 165px;
-  left: 50px;
+  margin-top: 165px;
+  margin-left: 50px;
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
@@ -131,19 +130,20 @@ html {
 }
 
 .cover__description {
-  position: relative;
-  width: 637px;
-  height: 28px;
-  top: 313px;
-  left: 78px;
+  margin-top: 133px;
+  justify-content: flex-end;
+  align-items: center;
   z-index: 3;
+  display: flex;
 }
 
 .cover__description-text {
+  padding-top: 2px;
+  margin-right: 79px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
+  text-align: start;
   white-space: nowrap;
   text-transform: uppercase;
   color: rgb(255 255 255 / 1);
@@ -151,13 +151,11 @@ html {
 }
 
 .bet-button {
+  margin-right: 50px;
   color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(255, 255, 255, 1);
-  position: relative;
   width: 256px;
   height: 51px;
-  top: 272px;
-  left: 794px;
   background-color: transparent;
   font-size: 22px;
   font-weight: 500;
@@ -174,7 +172,6 @@ html {
 
 .lots-heading {
   width: 121px;
-  line-height: 47px;
   margin-left: 40px;
   font-size: 40px;
   font-weight: 700;
@@ -231,9 +228,8 @@ html {
 
 .card-title {
   width: 254px;
-  line-height: 82px;
-  top: 31px;
-  left: 40px;
+  padding-top: 31px;
+  margin-left: 40px;
   position: relative;
   font-size: 22px;
   font-weight: 700;
@@ -256,14 +252,12 @@ html {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  top: 238px;
   color: rgba(255, 255, 255, 1);
   z-index: 2;
 }
 
 .lots__look-more-link {
   width: 192px;
-  line-height: 23px;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 20px;
